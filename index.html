@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning CSS</title>
+    <style>
+        h2{
+            font-size: 80px;
+            color: lightcoral ;
+            font-weight: 800;
+        }
+        h1{
+            font-size: 100px;
+            /* it will override the inline css using  !important */
+            color: blue !important; 
+        }
+    </style>
+    <link rel="stylesheet" href="/css//style.css">
+</head>
+<body>
+    <!-- inline css example -->
+    <h1 style="color: rgb(38, 56, 56);">Welcome to web development</h1>
+    <p style="color: brown; background-color: aqua;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, impedit distinctio deserunt aliquid harum facere, et minus pariatur excepturi totam aperiam maxime voluptates! Atque, nesciunt aliquam quam possimus fugiat expedita.</p>
+    <!-- internal css example -->
+    <!-- inline css >> internal css >> external css  priority -->
+    <h2>Yes this is example of internal css</h2>
+
+    <!-- external css -->
+    <h3>This is External CSS</h3>
+</body>
+</html>
