@@ -1,0 +1,39 @@
+.t_uppercase{
+    text-transform: uppercase;
+}
+.t_lowercase{
+    text-transform: lowercase;
+}
+.t_capitalize {
+    text-transform: capitalize;
+}
+.t_aling {
+    text-align: center;
+}
+
+.t_overline {
+    text-decoration:overline;
+}
+.t_underline{
+    text-decoration: underline;
+
+}
+.t_linethrough {
+    text-decoration: line-through;
+}
+.t_decoration {
+    text-decoration: overline line-through underline;
+}
+.t_indent {
+    text-indent: 140px;
+}
+.letter_space {
+    letter-spacing: 30px;
+}
+.t_wordspacing {
+    word-spacing: 10px;
+}
+.t_shadow {
+    color:#FA4032;
+    text-shadow: 5px 7px 2px #A64D79;
+}
