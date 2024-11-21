@@ -1,0 +1,23 @@
+
+.b_properties {
+    height: 500px;
+    width: 450px;
+    border: 2px solid violet;
+}
+.b_properties1 {
+    height: 500px;
+    width: 450px;
+    border: 2px dashed violet;
+}
+.b_properties2 {
+    height: 500px;
+    width: 450px;
+    border: 10px dotted violet;
+}
+.b_properties3 {
+    height: 500px;
+    width: 450px;
+    border: 10px solid violet;
+    /* clock-wise top right bottom left  */
+    border-radius: 30px 40px 60px 0px;
+}

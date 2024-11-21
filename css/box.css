@@ -1,0 +1,14 @@
+.box_model{
+    font-size: 30px;
+    border: 3px solid red;
+    /* padding: 20px; */
+    padding: 20px 30px 40px 50px;
+    margin: 40px;
+}
+.box_model1 {
+    font-size: 30px;
+    border: 3px solid red;
+    padding: 20px;
+    /* margin-top: 30px; */
+    margin: 20px 30px 40px 50px;
+}

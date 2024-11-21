@@ -1,0 +1,22 @@
+body {
+    height: 800px;
+    width: 800px;
+}
+.f_family {
+    font-family: arial;
+}
+.f_family1{
+    font-family: Times;
+}
+.f_family2 {
+    font-family: sans-serif;
+}
+.f_family3{
+    font-family: monospace;
+}
+.f_family4 {
+    font-family: fantasy;
+}
+.f_family5 {
+    font-family: Verdana;
+}
