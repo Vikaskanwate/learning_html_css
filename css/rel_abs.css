@@ -1,0 +1,29 @@
+.rel {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    background-color: deeppink;
+}
+.rel .tv {
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    background-color: yellow;
+    left: 140px;
+}
+.rel .sofa{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+    top: 150px;
+    left: 140px;
+}
+.rel .fishtank{
+    position: absolute;
+    height: 150px;
+    width: 100px;
+    background-color: lightskyblue;
+    left: 2px;
+    bottom: 0;
+}

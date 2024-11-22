@@ -1,0 +1,31 @@
+/* body {
+    background-color: aqua;
+    background-image: url(/images/iphone14.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+} */
+
+/* .background {
+    margin-top: 700px;
+    background-color: aquamarine;
+} */
+
+#gradiant {
+    height: 250px;
+    width: auto;
+    background-image: linear-gradient(to right,red,lightgreen,blue,indigo,violet);
+}
+
+#redial-gradiant {
+    height: 250px;
+    width: auto;
+    margin-top: 50px;
+    background-image: radial-gradient(circle,red 10%,lightgreen 20%,blue 30%,indigo 20%,violet 30%);
+}
+#conic-gradiant{
+    height: 250px;
+    margin-top: 40px;
+    background-color: brown;
+    background-image: conic-gradient(red 45deg,lightblue 90deg ,lawngreen 180deg 20%,blue 270deg,indigo 300deg,violet 360deg);
+}
