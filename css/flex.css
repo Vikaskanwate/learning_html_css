@@ -1,0 +1,34 @@
+body{
+    height: 100vh;
+    background-color: bisque;
+}
+.flex-container {
+    height: 100vh;
+    display: flex;
+    background-color: burlywood;
+    flex-wrap: wrap;
+    list-style: none;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+.flex-item {
+    background-color: lightblue;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border: 1px solid blanchedalmond;
+    border-radius: 5px;
+}

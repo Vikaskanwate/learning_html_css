@@ -1,0 +1,28 @@
+h1:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+    font-size: 50px;
+    color: blueviolet;
+    text-align: center;
+    height: 300px;
+    width: 500px;
+    background: url("/images/yellow flower.jpg");
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+h2:active{
+    background-color: aquamarine;
+    cursor: pointer;
+    font-size: 50px;
+    color: blueviolet;
+    text-align: center;
+}
+input:focus {
+    font-size: 30px;
+    background-color: yellow;
+}
+a:visited {
+    font-size: 50px;
+    color: brown;
+}
