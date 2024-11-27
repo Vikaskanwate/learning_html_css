@@ -1,3 +1,27 @@
 div {
-    animation: name duration timing-function delay iteration-count direction fill-mode;
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    animation: firstanimation;
+    animation-duration: 1s;
+    /* animation-delay: 0s; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition-timing-function: ease-in-out;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+@keyframes firstanimation 
+{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+    0% {background-image: url("/images/purpleflower.jpg"); background-color: red;left: 0px;top: 0px;}
+    25%{background-image: url("/images/purpleflower.jpg");background-color: green;left: 300px;top: 0px;}
+    50%{background-image: url("/images/purpleflower.jpg");background-color: blue;left: 300px;top: 300px;}
+    75%{background-image: url("/images/purpleflower.jpg");background-color: violet;left: 0px;top: 200px;}
+    100%{background-image: url("/images/purpleflower.jpg");background-color: pink;left: 0px;top: 0px;}
+
 }
